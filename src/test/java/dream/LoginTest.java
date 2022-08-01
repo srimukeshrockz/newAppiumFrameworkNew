@@ -10,7 +10,7 @@ public class LoginTest extends Base {
     @Test
     public void clickOnView()
     {
-        //this is the change
+        //second change
         LoginPage lpage=new LoginPage(driver);
         lpage.clickOnContinue();
         lpage.clickOnOkayButton();
